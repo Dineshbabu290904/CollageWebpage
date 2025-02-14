@@ -1,6 +1,18 @@
 body{
     margin-top: 10px;
 }
+
+#images img {
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 3px solid violet;
+}
+
 .marquee-container {
     background-color: rgb(88, 152, 209);
     color: white;
@@ -114,4 +126,8 @@ body{
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(224, 204, 204, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#images {
+    padding-bottom: 0.7rem;
 }
