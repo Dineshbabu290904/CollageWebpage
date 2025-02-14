@@ -1,0 +1,117 @@
+body{
+    margin-top: 10px;
+}
+.marquee-container {
+    background-color: rgb(88, 152, 209);
+    color: white;
+    margin-top: 10px;
+    padding-top: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.marquee-container a {             /* marquee tag*/
+    color: white;
+    text-decoration: underline;
+}
+.marquee-container a:hover {        /* marquee tag*/
+    color: yellow;
+}
+
+ /* Carousel height */
+ .carousel-item {
+    height: 450px;
+}
+
+.carousel-item.slide1 {
+    background-color: grey;
+}
+
+.carousel-item.slide2 {
+    background-color: lightcoral;
+}
+
+/* Notification feed styling */
+.notification-container {
+    height: 450px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin-top : 28px;
+    border: 1px solid #ccc;
+}
+
+.notification-list {
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+   /* animation: scroll-up 8s linear normal;*/
+}
+
+.notification-list li {
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    
+}
+.notification-list li a {
+    color: black;
+} 
+
+
+@keyframes scroll-up {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.utility-card,.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.utility-card:hover,.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.utility-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.table-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.table th {
+    text-transform: uppercase;
+}
+
+.btn-link {
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.icon {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(224, 204, 204, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
